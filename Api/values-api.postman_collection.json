@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "90dad1bf-e943-4b05-9f32-a002154121ac",
+		"name": "values-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "prod",
+			"item": [
+				{
+					"name": "listRepositories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://arcane-mountain-73200.herokuapp.com/listRepos",
+							"protocol": "https",
+							"host": [
+								"arcane-mountain-73200",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"listRepos"
+							]
+						},
+						"description": "Lista os repositórios existentes."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "dev",
+			"item": [
+				{
+					"name": "listRepositories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/listRepos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"listRepos"
+							]
+						},
+						"description": "Lista os repositórios existentes."
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
